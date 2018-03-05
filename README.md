@@ -12,3 +12,5 @@ In your command line, from the the location of your BlurryFrameRemover directory
 `python3 blurryframeremover.py --image [path to image folder] --threshold [threshold value (default 10)]`
 For example:
 `python3 blurryframeremover.py --image ./images --threshold 20`
+
+The lower your threshold value, the stricter the blur detection gets. For example, the default is 10 but a value of 100+ will likely end up flagging most of your images as blurry.
