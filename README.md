@@ -8,4 +8,7 @@ This script, based on [Adrian Rosebrock's script](https://www.pyimagesearch.com/
 
 ## Usage
 
+In your command line, from the the location of your BlurryFrameRemover directory, you can run the program like so:
 `python3 blurryframeremover.py --image [path to image folder] --threshold [threshold value (default 100)]`
+For example:
+`python3 blurryframeremover.py --image ./images --threshold 200`
