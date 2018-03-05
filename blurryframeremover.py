@@ -1,6 +1,3 @@
-# USAGE
-# python detect_blur.py --images images
-
 # import the necessary packages
 from imutils import paths
 import argparse
