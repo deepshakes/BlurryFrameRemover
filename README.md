@@ -8,6 +8,8 @@ This script, based on [Adrian Rosebrock's script](https://www.pyimagesearch.com/
 
 ## Usage
 
+Place all of the frames that you want to test in the 'Images' directory.
+
 In your command line, from the the location of your BlurryFrameRemover directory, you can run the program like so:
 `python3 blurryframeremover.py --image [path to image folder] --threshold [threshold value (default 10)]`
 For example:
